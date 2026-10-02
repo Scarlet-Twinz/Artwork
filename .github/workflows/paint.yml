@@ -4,13 +4,17 @@ on:
   push:
     branches:
       - main
+    paths-ignore:
+      - "README.md"
+      - "artwork.svg"
+      - ".github/workflows/paint.yml"
 
 permissions:
   contents: write
 
 jobs:
   paint:
-    if: ${{ github.event.head_commit.message != 'Paint I AM EMMANUELLA contribution grid' }}
+    if: ${{ !contains(github.event.head_commit.message, 'I AM EMMANUELLA • pixel') }}
     runs-on: ubuntu-latest
 
     steps:
