@@ -1,39 +1,15 @@
-# ✦ I AM EMMANUELLA ✦
+# I AM EMMANUELLA
 
-A small GitHub profile-art experiment built from the contribution grid.
+This is a small personal experiment with GitHub's contribution calendar.
 
-> **I AM EMMANUELLA**  
-> ✿ coded as pixels • shaped like a signature • made for the profile
+I wanted to see if the contribution grid could be used as more than just a record of activity, so I turned it into a simple piece of pixel lettering: **I AM EMMANUELLA**.
 
-This repository is intentionally separate from my software projects. Its purpose is visual: turning GitHub's contribution calendar into a piece of personal pixel art.
+The repository is separate from my actual software projects. There isn't a product behind it, and there isn't anything here that needs to be installed or used. The repo is just where I keep the artwork and the code that creates it.
 
-### The idea
+The main idea is simple: use the seven-row contribution calendar as a canvas and place the letters across it.
 
-The artwork uses the seven-row structure of GitHub's contribution calendar as a tiny canvas. The lettering is compressed into a pixel font and surrounded by small floral/spark motifs.
+That's it. I made it because I thought it would be a nice way to put something personal on my GitHub profile.
 
-The repository itself does **not** represent a software product or claim that the artwork is normal development activity. It is profile artwork.
+The contribution artwork is generated from dated commits, while `artwork.svg` shows the idea without needing to look at the contribution graph.
 
-### ✦ Design
-
-- **Message:** I AM EMMANUELLA
-- **Style:** minimalist pixel typography
-- **Motif:** ✿ floral / sparkle accents
-- **Canvas:** GitHub contribution calendar
-- **Home:** `Scarlet-Twinz/Artwork`
-
-GitHub uses the commit author's date when deciding where a commit appears on the profile contribution calendar. citeturn0search0
-
----
-
-### 🌸 A little signature
-
-```
-        ✦   ✿   ✦
-
-        I AM
-     EMMANUELLA
-
-        ✦   ✿   ✦
-```
-
-This is intentionally different from an ordinary project repository: the repository is the backstage, while the contribution grid is the visible canvas.
+Repository: `Scarlet-Twinz/Artwork`
